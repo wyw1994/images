@@ -1,0 +1,33 @@
+{
+"name": "wyw1994/images",
+"description": "Yii2 wyw1994 images",
+"keywords": [
+"yii2",
+"images"
+],
+"homepage": "https://github.com/wyw1994/images",
+"type": "yii2-extension",
+"license": "MIT",
+"support": {
+"source": "https://github.com/wyw1994/images"
+},
+"authors": [
+{
+"name": "images",
+"email": "xww@wyw1.cn"
+}
+],
+"minimum-stability": "stable",
+"require": {
+"php": ">=5.4.0",
+"yiisoft/yii2": ">=2.0.6"
+},
+"autoload": {
+"psr-4": {
+"xww\\images\\": "src/"
+}
+},
+"config": {
+"process-timeout": 1800
+}
+}
